@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agentic Greeting</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="card">
+        <h1 id="greeting">Hi there 👋</h1>
+        <p class="message">
+          Welcome to your freshly generated agentic web experience. Click the button below to personalize the greeting.
+        </p>
+        <form id="greeting-form" class="form" autocomplete="off">
+          <label for="name" class="label">Your name</label>
+          <input id="name" name="name" class="input" placeholder="Type your name..." />
+          <button type="submit" class="button">Say hi</button>
+        </form>
+        <p id="time" class="time"></p>
+      </section>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>
